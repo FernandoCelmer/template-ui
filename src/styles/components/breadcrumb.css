@@ -1,0 +1,20 @@
+.breadcrumb {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.breadcrumb-item {
+    padding-left: 0.5rem;
+}
+
+.breadcrumb-itema, .active {
+    color: var(--color-gray);
+} 
+
+.breadcrumb-item+::before {
+    float: left;
+    padding-right: 0.9rem;
+    color: var(--color-gray);
+    content: ">"
+}

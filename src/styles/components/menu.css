@@ -1,0 +1,17 @@
+.menu {
+    list-style: none;
+}
+
+.menu-item {
+    padding-left: 0.0rem;
+}
+
+.menu-item, .active {
+    color: var(--color-gray);
+} 
+
+.menu-item+::before {
+    float: left;
+    padding-right: 0.9rem;
+    color: var(--color-gray);
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>UI</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basic UI Component Library">
+    <meta name="author" content="FernandoCelmer">
+
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+
+    <div class="sidebar" style="width:15%">
+
+        <nav>
+            <ol class="menu">
+                <li class="menu-item"><a href="#alert">Alert</a></li>
+                <li class="menu-item"><a href="#badge">Badge</a></li>
+                <li class="menu-item"><a href="#breadcrumb">Breadcrumb</a></li>
+                <li class="menu-item"><a href="#button">Button</a></li>
+                <li class="menu-item">Code</li>
+                <li class="menu-item">Table</li>
+            </ol>
+        </nav>
+
+    </div>
+
+    <div class="container" style="margin-left:15%">
+
+        <h1 class="bold title" id="component-title">Components</h1>
+
+        <div include-html="components/alerts.html"></div>
+        <hr>
+
+        <div include-html="components/badge.html"></div>
+        <hr>
+
+        <div include-html="components/breadcrumb.html"></div>
+        <hr>
+
+        <div include-html="components/button.html"></div>
+        <hr>
+
+    </div>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
