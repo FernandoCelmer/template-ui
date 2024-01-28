@@ -1,4 +1,4 @@
-# ui
+# template-ui
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/FernandoCelmer?label=FernandoCelmer&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/FernandoCelmer/ui?style=flat-square)
